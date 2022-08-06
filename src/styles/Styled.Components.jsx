@@ -29,7 +29,13 @@ export const NavbarNav = styled.nav`
     }
   }
 `;
-
+export const Div = styled.section`
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
 export const Wrapper = styled.section`
   margin-top: 3.6rem;
   padding: 9rem 0 5rem;

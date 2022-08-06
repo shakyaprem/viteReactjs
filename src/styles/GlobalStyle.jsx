@@ -85,8 +85,8 @@ img {
     color: ${({ theme }) => theme.colors.helper};
   }
 }
-.pa-bottom {
-  padding: 5rem;
+.padding {
+  padding: 10rem 0;
 }
 .text {
   width: 100%;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useGlobalContext } from '../context/context';
 import { Button } from '../styles/Button';
-import { Wrapper, Container, Card } from '../styles/Styled.Components';
+import { Div, Wrapper, Container, Card } from '../styles/Styled.Components';
 import LoadingSpinner from '../components/LoadingSpinner';
 
 const Services = () => {
@@ -15,7 +15,8 @@ const Services = () => {
   }
   
   return (
-    <Wrapper className="pa-bottom">
+    <Div>
+      <Wrapper className="pa-bottom">
       <h2 className="common-heading">
         our Services
       </h2>
@@ -39,6 +40,7 @@ const Services = () => {
         }
       </Container>
     </Wrapper>
+    </Div>
   );
 };
 

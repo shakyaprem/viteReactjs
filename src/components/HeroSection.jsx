@@ -7,7 +7,7 @@ import { useGlobalContext } from "../context/context";
 const HeroSection = () => {
   const { name, image, background } = useGlobalContext();
   return (
-    <Wrapper className="pa-bottom" style={{ background: background }}>
+    <Wrapper className="padding" style={{ background: background }}>
       <div className="container grid grid-two-column">
         <div className="hero-section-data">
           <p className="hero-top">this is me</p>

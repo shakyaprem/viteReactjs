@@ -5,6 +5,8 @@ import LoadingSpinner from '../components/LoadingSpinner';
 import Contact from './Contact';
 import Services from './Services';
 import Stories from './Stories';
+import GitUsers from '../api/GitUsers';
+
 
 
 const Home = () => {
@@ -22,6 +24,7 @@ const Home = () => {
   return (
     <>
       <HeroSection />
+      <GitUsers />
       <Services />
       <Stories />
       <Contact />
