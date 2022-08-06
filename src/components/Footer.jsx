@@ -26,8 +26,10 @@ const Footer = () => {
           <h2 className="footer-heading">
             subscribe to get important update
           </h2>
-          <form action="#" className="footer-form">
-            <input type="email" autoComplete="off" name="email" placeholder="Email"/>
+          <form form action = 'https://formspree.io/f/xjvzbkol'
+          method = 'POST'
+          className = "footer-form" >
+            <input type="email" name="Email" placeholder="Email" autoComplete="off" required={true} />
             <input type="submit" name="submit" value="subscribe" />
           </form>
         </div>
