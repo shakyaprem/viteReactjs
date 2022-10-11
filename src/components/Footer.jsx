@@ -48,7 +48,7 @@ const Footer = () => {
             call us
           </h2>
           <p className="footer-text">
-            +91 98120 29029
+            +91 98120 54530
           </p>
         </div>
         <div className="col col-2 col-3 col-4">
